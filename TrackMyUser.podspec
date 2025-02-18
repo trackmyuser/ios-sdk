@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "https://github.com/trackmyuser/ios-sdk/releases/download/v0.0.2/TrackMyUser.xcframework.zip" }
+  spec.source       = { :http => "https://github.com/trackmyuser/ios-sdk/releases/download/v0.0.3/TrackMyUser.xcframework.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
