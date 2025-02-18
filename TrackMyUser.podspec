@@ -19,5 +19,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
   spec.ios.vendored_frameworks = "TrackMyUser.xcframework"
   spec.swift_versions = ['5.0']
-  spec.source       = { :http => "https://github.com/trackmyuser/ios-sdk/releases/download/v0.0.9/TrackMyUser.xcframework.zip" }
+  spec.source       = { :http => "https://github.com/trackmyuser/ios-sdk/releases/download/0.0.9/TrackMyUser.xcframework.zip" }
 end
