@@ -127,7 +127,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = "Alamofire"
+  # spec.frameworks = "Alamofire"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
