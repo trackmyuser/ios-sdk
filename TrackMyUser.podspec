@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TrackMyUser"
-  spec.version      = "0.1.0"
+  spec.version      = "0.2.1"
   spec.summary      = "iOS SDK for TrackMyUser."
   spec.description  = <<-DESC
   TrackMyUser's iOS SDK for measurement and attribution 
