@@ -10,14 +10,20 @@ pod 'TrackMyUser'
 
 ## 2. Initialise the SDK
 
-```dart
+```swift
 let config = TrackMyUserConfig(appToken: "YOUR_SDK_KEY")
 TrackMyUserSDK.initialize(config: config)
 ```
 
 ## 3. Event Tracking
 
-```dart
+```swift
 let event = TrackMyUserEvent(eventCode: "MY_EVENT")
 TrackMyUserSDK.trackEvent(event: event)
+```
+
+## 4. Set User Id
+
+```swift
+TrackMyUserSDK.setUserId(userId: "USER_ID")
 ```
