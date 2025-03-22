@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TrackMyUser"
-  spec.version      = "0.2.2"
+  spec.version      = "1.0.1"
   spec.summary      = "iOS SDK for TrackMyUser."
   spec.description  = <<-DESC
   TrackMyUser's iOS SDK for measurement and attribution 
@@ -11,5 +11,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "10.0"
   spec.ios.vendored_frameworks = "TrackMyUser.xcframework"
   spec.swift_versions = ['5.0']
-  spec.source       = { :http => "https://github.com/trackmyuser/ios-sdk/releases/download/0.2.2/TrackMyUser.xcframework.zip" }
+  spec.source       = { :http => "https://github.com/trackmyuser/ios-sdk/releases/download/1.0.1/TrackMyUser.xcframework.zip" }
 end
